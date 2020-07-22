@@ -1,5 +1,5 @@
 {
-    "name": "kiwfy/taurus-publisher-php",
+    "name": "scaffoldeducation/taurus-publisher-php",
     "description": "PHP library using LUA script to send for redis a job for Taurus queue",
     "version": "1.0.0",
     "type": "library",
