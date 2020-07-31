@@ -21,7 +21,7 @@ composer require kiwfy/taurus-publisher-php
 
 it's a good idea to look in the sample folder to understand how it works.
 
-First verify if all dependences is install (if need anyelse)
+First verify if all dependencies is installed (if need anyelse)
 ```sh
 composer install --no-dev --prefer-dist
 ```
@@ -43,12 +43,12 @@ To ensure that the entire project is fine:
 
 First install all the dev dependences
 ```sh
-$ composer install --dev --prefer-dist
+composer install --dev --prefer-dist
 ```
 
 Second run all validations
 ```sh
-$ composer check
+composer check
 ```
 
 **Kiwfy - Open your code, open your mind!**
