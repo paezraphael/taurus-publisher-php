@@ -131,7 +131,8 @@ class BullPublisher
      */
     public function getTimestamp(): int
     {
-        return intval(str_replace('.', '', microtime(true)));
+        $seconds = microtime(true); // true = float, false = weirdo "0.2342 123456" format
+        return round( ($seconds * 1000) );
     }
 
     /**
